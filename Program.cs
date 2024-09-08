@@ -43,7 +43,7 @@ class TestApp
             index--;
         }
 
-        //Convert the array to string 
+        //Convert the array to string  using a lamba expression
         string[] lines = Array.ConvertAll(sortedInBetween, sortedInBetween => sortedInBetween.ToString());
 
 
@@ -84,7 +84,7 @@ class TestApp
             }
         }
         return user_input;
-
+    //0, 1 and even numbers excluding 2 can't be prime, then for loop starting at 3 until i == num to add numbers to list
     }
     static bool PrimeNum(int num)
     {
